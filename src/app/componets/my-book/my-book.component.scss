@@ -1,0 +1,27 @@
+:host{
+  display: flex;
+  justify-content: center;
+}
+
+.my-book__conteiner {
+  display: flex;
+  justify-content: space-between;
+
+  width: 70%;
+}
+
+.my-book__form,
+.my-book__overview {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.my-book__title,
+.my-book__description {
+  margin-bottom: 40px;
+
+  overflow-x:hidden;
+
+  width: 100%;
+}

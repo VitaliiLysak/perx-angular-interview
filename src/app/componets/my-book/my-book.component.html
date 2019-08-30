@@ -1,0 +1,31 @@
+<div class="my-book__conteiner">
+  <div class="my-book__form">
+    <mat-form-field class="my-book__title">
+      <input
+        matInput
+        placeholder="Title of the book"
+        [(ngModel)]='myBook.title'
+      >
+    </mat-form-field>
+
+    <mat-form-field class="my-book__description">
+      <textarea
+        matInput
+        placeholder="Description of the book"
+        rows="30"
+        [(ngModel)]='myBook.description'
+      ></textarea>
+    </mat-form-field>
+  </div>
+
+  <div class="my-book__overview">
+    <h3>Title</h3>
+    <div class="my-book__title">
+      {{myBook.title}}
+    </div>
+    <h3>Description</h3>
+    <div class="my-book__description">
+      {{myBook.description}}
+    </div>
+  </div>
+</div>
